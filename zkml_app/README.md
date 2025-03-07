@@ -129,3 +129,67 @@ Data statistics retrieval
 ______________________________________________________________
 
 
+streamlitapp.py
+
+
+This implementation creates a user-friendly web interface with:
+
+Main Features:
+
+Data upload or synthetic data generation
+
+Interactive model training
+
+Visualization of data and predictions
+
+Detailed proof examination
+
+UI Components:
+
+Sidebar for configuration
+
+Data visualizations using Plotly
+
+Expandable proof details
+
+Progress indicators and notifications
+
+Key functionality:
+
+Data preprocessing
+
+Model training
+
+Prediction visualization
+
+Proof verification and display
+
+Interactive elements:
+
+File upload
+
+Parameter configuration
+
+Training triggers
+
+Expandable sections
+
+To run the application:
+
+Ensure all requirements are installed
+
+Navigate to the ui directory
+
+Run: streamlit run streamlit_app.py
+
+The app provides:
+
+Data visualization
+
+Model training interface
+
+Proof verification
+
+Interactive parameter tuning
+
+Detailed proof examination
