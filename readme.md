@@ -24,34 +24,27 @@ ZKML is a Python-based implementation that combines machine learning with zero-k
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/zkml.git
+git clone "https://github.com/zkquant-zkcrypchain1/zkml-via-GKR-protocol-project"
 cd zkml
+```
 
-Copy
-
-Insert at cursor
-markdown
 Create a virtual environment (optional but recommended):
-
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-Copy
-
-Insert at cursor
 bash
 Install dependencies:
-
+```
 pip install -r requirements.txt
+```
 
-Copy
-
-Insert at cursor
 bash
 💻 Usage
 Command Line Interface
+```
 from src import ZKMLModelGKR, DataHandler
-
 # Initialize components
 data_handler = DataHandler()
 model = ZKMLModelGKR()
@@ -65,20 +58,15 @@ proof = model.train(processed_data['X_train'], processed_data['y_train'])
 
 # Make predictions
 predictions = model.predict(processed_data['X_test'])
+```
 
-Copy
-
-Insert at cursor
-python
 Web Interface
 Run the Streamlit app:
-
+```
 cd ui
 streamlit run streamlit_app.py
+```
 
-Copy
-
-Insert at cursor
 bash
 🏗️ Project Structure
 zkml_app/
@@ -96,11 +84,10 @@ zkml_app/
 ├── requirements.txt     # Project dependencies
 └── README.md           # Project documentation
 
-Copy
 
-Insert at cursor
-text
 📊 Example
+
+```
 import numpy as np
 from src import ZKMLModelGKR
 
@@ -115,12 +102,11 @@ proof = zkml.train(X, y)
 # Make predictions
 X_test = np.random.randn(10, 1)
 predictions = zkml.predict(X_test)
+```
 
-Copy
-
-Insert at cursor
-python
 🔍 Technical Details
+
+
 GKR Protocol Implementation
 The GKR protocol is implemented with the following components:
 
@@ -156,9 +142,9 @@ Open a Pull Request
 Distributed under the MIT License. See LICENSE for more information.
 
 📧 Contact
-Your Name - mailto:your.email@example.com
+Your Name - 
 
-Project Link: https://github.com/yourusername/zkml
+Project Link: 
 
 🙏 Acknowledgments
 GKR Protocol paper authors
