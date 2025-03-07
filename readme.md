@@ -69,6 +69,7 @@ streamlit run streamlit_app.py
 
 bash
 🏗️ Project Structure
+```
 zkml_app/
 │
 ├── src/                  # Source code
@@ -84,7 +85,7 @@ zkml_app/
 ├── requirements.txt     # Project dependencies
 └── README.md           # Project documentation
 
-
+```
 📊 Example
 
 ```
